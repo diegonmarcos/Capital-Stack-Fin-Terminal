@@ -2,7 +2,7 @@
 
 Blmbrg - member of the [Fin-CM](https://github.com/diegonmarcos/Fin-CM) hub. No content yet: this repo is a README plus the deployer wiring skeleton (ticket #1224).
 
-Candidates for the pending front-labtools split (#1218), NOT moved now: front-labtools b-Nxs_Blmmbrg/fin-terminal (fin-term, URL /fin-terminal/), b-Nxs_Blmmbrg/market_watch (market watch, /market_watch/), b-Nxs_Blmmbrg/news (/news/).
+Content: `src/fin-terminal`, `src/market_watch`, `src/news`, moved with history from Projects-labtools `b-Nxs_Blmmbrg` (#1257).
 
 ## Wiring
 
