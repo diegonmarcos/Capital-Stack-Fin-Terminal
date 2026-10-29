@@ -1,0 +1,61 @@
+{
+  "schema": "readme-node/v1",
+  "generated_by": "_git-repos-master readme-render.js nodeData() from projects-repos.json; DO NOT EDIT (node repos-sot.js sync-readmes)",
+  "name": "Fin-CM-Blmbrg",
+  "label": "Fin-CM-Blmbrg",
+  "code": "3.3.1.1",
+  "kind": "repo",
+  "description": "Blmbrg — fin-term, market watch and news",
+  "visibility": "public",
+  "url": "https://github.com/diegonmarcos/Fin-CM-Blmbrg",
+  "developer": "Nexus.z",
+  "farm": "3.Capital/Capital-Markets",
+  "breadcrumb": [
+    {
+      "code": "3",
+      "kind": "area",
+      "label": "Capital",
+      "icon": "💹"
+    },
+    {
+      "code": "3.3",
+      "kind": "project",
+      "label": "Stack-Fin-Terminal",
+      "icon": "📰"
+    },
+    {
+      "code": "3.3.1",
+      "kind": "family",
+      "label": "Terminal",
+      "icon": ""
+    }
+  ],
+  "hub": {
+    "name": "Fin-___",
+    "code": "3.0",
+    "url": "https://github.com/diegonmarcos/Fin-___"
+  },
+  "base_dir": "git",
+  "members": [],
+  "tree": [
+    "├── 0_deployer (submodule)",
+    "├── 0_hub/",
+    "│   └── Fin-___ (submodule)",
+    "├── dist/",
+    "└── src/",
+    "    ├── CentralBank/",
+    "    ├── DataScience-ML-Terminal/",
+    "    ├── Fin-Terminal/",
+    "    │   ├── dist/",
+    "    │   ├── src/",
+    "    │   └── tests/",
+    "    ├── GDELT-News/",
+    "    │   ├── dist/",
+    "    │   └── src/",
+    "    └── MarketWatch/",
+    "        ├── 0.spec/",
+    "        ├── dist/",
+    "        ├── public/",
+    "        └── src/"
+  ]
+}
