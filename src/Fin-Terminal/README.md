@@ -1,8 +1,25 @@
 # Fin Terminal
 
-Display name: **Fin Terminal**, part of FIN TERMINAL. Formerly `src/fin-terminal`.
+Display name: **Fin Terminal**, part of FIN TERMINAL.
 
-# fin-terminal
+## Brief
+
+Bloomberg-terminal-style web frontend for fin-api (formerly `fincept-server`): REST and WebSocket panels, built with the repo `build.json`/`ship.yml` conventions. Formerly `src/fin-terminal`. The original project notes follow below.
+
+## FOSS references
+
+Existence of each repository checked with `git ls-remote` on 2026-10-29. Licences as published upstream; re-check before reuse.
+
+- [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB): Open-source investment research platform and terminal (AGPL-3.0)
+- [ghostfolio/ghostfolio](https://github.com/ghostfolio/ghostfolio): Open-source wealth management software (AGPL-3.0)
+- [ranaroussi/yfinance](https://github.com/ranaroussi/yfinance): Yahoo Finance market data downloader (Apache-2.0)
+- [ccxt/ccxt](https://github.com/ccxt/ccxt): Unified crypto exchange trading and data API (MIT)
+- [mrjbq7/ta-lib](https://github.com/mrjbq7/ta-lib): Python wrapper for the TA-Lib technical analysis library (BSD-2-Clause)
+- [bukosabino/ta](https://github.com/bukosabino/ta): Technical analysis indicators for pandas (MIT)
+- [AI4Finance-Foundation/FinGPT](https://github.com/AI4Finance-Foundation/FinGPT): Open-source financial large language models (MIT)
+
+## Original project notes
+
 
 Bloomberg-terminal-style web frontend for **fin-api** (formerly `fincept-server`).
 
@@ -10,7 +27,7 @@ Bloomberg-terminal-style web frontend for **fin-api** (formerly `fincept-server`
 - **Port (dev)**: 8024
 - **Stack**: Vanilla TypeScript + SCSS, declarative `build.json` (sass + esbuild + copy + symlink)
 
-## Design
+### Design
 
 Authentic Bloomberg aesthetic — **amber on true black**, hard rectangles, monospace everywhere, dense layout, function-key bar, command bar, status bar.
 
@@ -18,7 +35,7 @@ Two themes (runtime-switchable, `Ctrl+T`):
 1. `bloomberg-dark` (default) — `#000000` background, `#FFA028` Sunshade amber
 2. `egui-dark` — GitHub-dark palette, copied verbatim from the egui desktop's `assets/themes/dark.json`
 
-## Source of truth
+### Source of truth
 
 These three JSON files are **copies** of the fin-api source-of-truth, guarded by a CI diff test:
 
@@ -27,7 +44,7 @@ These three JSON files are **copies** of the fin-api source-of-truth, guarded by
 
 If the fin-api source changes, the diff test fails and we must update the copies.
 
-## Build
+### Build
 
 ```bash
 ./build.sh build      # production bundle
@@ -35,7 +52,7 @@ If the fin-api source changes, the diff test fails and we must update the copies
 npm test              # vitest
 ```
 
-## Layout (mirrors `sailytics/`)
+### Layout (mirrors `sailytics/`)
 
 ```
 src/
