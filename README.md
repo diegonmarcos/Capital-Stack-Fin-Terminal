@@ -2,7 +2,17 @@
 
 Blmbrg - member of the [Fin-CM](https://github.com/diegonmarcos/Fin-CM) hub. No content yet: this repo is a README plus the deployer wiring skeleton (ticket #1224).
 
-Content: `src/fin-terminal`, `src/market_watch`, `src/news`, moved with history from Projects-labtools `b-Nxs_Blmmbrg` (#1257).
+Content moved with history from Projects-labtools `b-Nxs_Blmmbrg` (#1257), laid out as FIN TERMINAL (#1279).
+
+## FIN TERMINAL
+
+| Display name | Folder | Notes |
+|---|---|---|
+| CentralBank | `src/CentralBank` | pointer only; code lives in Fin-CM-mqpm `src/central_bank` |
+| Fin Terminal | `src/Fin-Terminal` | formerly `src/fin-terminal` |
+| GDELT News | `src/GDELT-News` | GDELT feed dashboard, formerly `src/news` |
+| MarketWatch | `src/MarketWatch` | formerly `src/market_watch` |
+| Data Science & ML Terminal | `src/DataScience-ML-Terminal` | new, purpose placeholder |
 
 ## Wiring
 

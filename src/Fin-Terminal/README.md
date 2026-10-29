@@ -1,3 +1,7 @@
+# Fin Terminal
+
+Display name: **Fin Terminal**, part of FIN TERMINAL. Formerly `src/fin-terminal`.
+
 # fin-terminal
 
 Bloomberg-terminal-style web frontend for **fin-api** (formerly `fincept-server`).
