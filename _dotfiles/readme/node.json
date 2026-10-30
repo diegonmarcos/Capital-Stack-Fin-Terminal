@@ -1,14 +1,14 @@
 {
   "schema": "readme-node/v1",
   "generated_by": "_git-repos-master readme-render.js nodeData() from projects-repos.json; DO NOT EDIT (node repos-sot.js sync-readmes)",
-  "name": "Fin-CM-Blmbrg",
-  "label": "Fin-CM-Blmbrg",
+  "name": "Capital-Stack-Fin-Terminal",
+  "label": "Capital-Stack-Fin-Terminal",
   "code": "3.3.1.1",
   "kind": "repo",
   "variant": "repo",
   "description": "Blmbrg — fin-term, market watch and news",
   "visibility": "public",
-  "url": "https://github.com/diegonmarcos/Fin-CM-Blmbrg",
+  "url": "https://github.com/diegonmarcos/Capital-Stack-Fin-Terminal",
   "developer": "Nexus.z",
   "farm": "3.Capital/Capital-Markets",
   "breadcrumb": [
@@ -32,16 +32,16 @@
     }
   ],
   "hub": {
-    "name": "Fin-___",
+    "name": "Capital-___",
     "code": "3.0",
-    "url": "https://github.com/diegonmarcos/Fin-___"
+    "url": "https://github.com/diegonmarcos/Capital-___"
   },
   "base_dir": "git",
   "members": [],
   "tree": [
     "├── 0_deployer (submodule)",
     "├── 0_hub/",
-    "│   └── Fin-___ (submodule)",
+    "│   └── Capital-___ (submodule)",
     "├── dist/",
     "└── src/",
     "    ├── CentralBank/",

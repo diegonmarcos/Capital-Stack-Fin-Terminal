@@ -1,10 +1,10 @@
 {
-  "title": "Fin-CM-Blmbrg",
-  "intro": "Blmbrg - member of the [Fin-CM](https://github.com/diegonmarcos/Fin-CM) hub. No content yet: this repo is a README plus the deployer wiring skeleton (ticket #1224).\n\nContent moved with history from Projects-labtools `b-Nxs_Blmmbrg` (#1257), laid out as FIN TERMINAL (#1279).",
+  "title": "Capital-Stack-Fin-Terminal",
+  "intro": "Blmbrg - member of the [Capital-___](https://github.com/diegonmarcos/Capital-___) hub. No content yet: this repo is a README plus the deployer wiring skeleton (ticket #1224).\n\nContent moved with history from Projects-labtools `b-Nxs_Blmmbrg` (#1257), laid out as FIN TERMINAL (#1279).",
   "sections": [
     {
       "title": "FIN TERMINAL",
-      "body": "| Display name | Folder | Notes |\n|---|---|---|\n| CentralBank | `src/CentralBank` | pointer only; code lives in Fin-CM-mqpm `src/central_bank` |\n| Fin Terminal | `src/Fin-Terminal` | formerly `src/fin-terminal` |\n| GDELT News | `src/GDELT-News` | GDELT feed dashboard, formerly `src/news` |\n| MarketWatch | `src/MarketWatch` | formerly `src/market_watch` |\n| Data Science & ML Terminal | `src/DataScience-ML-Terminal` | new, purpose placeholder |"
+      "body": "| Display name | Folder | Notes |\n|---|---|---|\n| CentralBank | `src/CentralBank` | pointer only; code lives in Capital-Macro-Central-Bank `src/central_bank` |\n| Fin Terminal | `src/Fin-Terminal` | formerly `src/fin-terminal` |\n| GDELT News | `src/GDELT-News` | GDELT feed dashboard, formerly `src/news` |\n| MarketWatch | `src/MarketWatch` | formerly `src/market_watch` |\n| Data Science & ML Terminal | `src/DataScience-ML-Terminal` | new, purpose placeholder |"
     },
     {
       "title": "Wiring",

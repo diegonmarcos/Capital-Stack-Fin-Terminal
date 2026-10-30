@@ -4,7 +4,7 @@ Display name: **CentralBank**, part of FIN TERMINAL.
 
 ## Brief
 
-Central-bank data and policy tooling (rates, balance sheets, monetary series). The code is not in this repo: it lives in Fin-CM-mqpm [`src/central_bank`](https://github.com/diegonmarcos/Fin-CM-mqpm/tree/main/src/central_bank) (moved there with history by #1218). This folder is a pointer only; move the code here only on the owner's decision.
+Central-bank data and policy tooling (rates, balance sheets, monetary series). The code is not in this repo: it lives in Capital-Macro-Central-Bank [`src/central_bank`](https://github.com/diegonmarcos/Capital-Macro-Central-Bank/tree/main/src/central_bank) (moved there with history by #1218). This folder is a pointer only; move the code here only on the owner's decision.
 
 ## FOSS references
 
